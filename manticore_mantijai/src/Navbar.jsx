@@ -1,8 +1,8 @@
 function Nav() {
     return (
-        
-        <div classname="nav">
 
+        <div classname="nav">
+              
         </div>
 
     );
