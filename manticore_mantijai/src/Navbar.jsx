@@ -1,9 +1,10 @@
-function Nav() {
+const Nav = () => {
     return (
-
-        <div classname="nav">
-              
+        <div>
+            Manticore
         </div>
+
+
 
     );
 }
