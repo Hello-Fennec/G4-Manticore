@@ -4,8 +4,8 @@ import Nav from './Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <div className='bg-gradient-to-r from-yellow-600 to-lime-700 ... w-full h-screen'>
+    <div className="App">      
+      <div className='bg-orange-100 w-full h-screen'>
           <Nav />
       </div>
 
