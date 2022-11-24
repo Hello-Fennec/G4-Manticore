@@ -13,8 +13,8 @@ const Score = () => {
     return (
         <div className="score">            
             <h1 className="totalscore">Total Score</h1>
-            <h2>{score} / {QuestionsData.length}</h2>
-            <button onClick={restartApp}  className="material-symbols-outlined">
+            <h2 className="scoreboard">{score} / {QuestionsData.length}</h2>
+            <button onClick={restartApp}  className="material-symbols-outlined" id="refreshbutton">
                 refresh
             </button>
         </div>

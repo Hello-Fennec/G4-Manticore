@@ -43,7 +43,7 @@ const Quiz = () => {
     return(
         <div className="quiz">
             {/* คำถาม */}
-            <h1 className="question">{QuestionsData[current].question}</h1>
+            <h1 className="questionquiz">{QuestionsData[current].question}</h1>
             {/* ตัวเลือก */}
            
             <div className="choices">
