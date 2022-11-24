@@ -152,7 +152,7 @@ p {
     display: flex; 
     align-items: center;
     justify-content: center;
-
+    
 }
 .readmorebtn{     
     font-family: "Inter" sans-serif;     
@@ -160,10 +160,11 @@ p {
     color: white;   
     text-decoration: none;    
     font-size: 24px; 
-    color: #998665;
+    color: #998665;     
 
 }
 
 .readmorebtn:hover{
    color: #EC3C3C;
 }
+
