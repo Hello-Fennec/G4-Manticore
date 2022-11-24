@@ -13,7 +13,7 @@ function Home() {
                 <p className="font-poppins">A magical beast and one of the wizarding world's most dangerous creatures.</p>
             </div>
 
-            <img className="w-1/4  mt-56 float-right mr-56" src="../img/home.png" alt="homepicture" />
+            <img className="w-1/4  mt-56 float-right mr-32" src="../img/home.png" alt="homepicture" />
             
             <div className="clouds">
                 <img src="../img/cloud1.png" className="cloud1" />
