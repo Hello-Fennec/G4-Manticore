@@ -9,7 +9,7 @@ const Nav = () => {
                 </div>
               <ul className="md:flex md:items-center md:max-xl mr-20">
                 <li className="md:max-xl space-x-20  text-xl text-white font-inter">
-                <a href="#Home">HOME</a>
+                <a href="#">HOME</a>
                 <a href="#">APPEARANCE</a> 
                 <a href="#">HISTORY</a>               
                 <a href="#">QUIZ</a>
