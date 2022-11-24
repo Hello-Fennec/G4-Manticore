@@ -2,7 +2,6 @@ import React from "react";
 
 import "./History.css";
 
-import ReadMoreReadLess from "../ReadMoreReadLess";
 
 const History = () => {
   return (
@@ -12,9 +11,8 @@ const History = () => {
       </div>
 
       <section className="top-pic">
-        <img src="../img/pic01.png" class="pic01" />          
+        <img src="../img/pic01.png" class="pic01" />
       </section>
-      
 
       <section class="top-topic">
         <div class="top-topic01">
@@ -85,7 +83,7 @@ const History = () => {
             A manticore is a creature from Persian and Indian mythology that is
             often featured in Greek and medieval literature and art. It has the
             head of a human, the body of a lion, and a scorpion tail that can
-            shoot poisonous barbs. It is a most fearsome creature.{" "}
+            shoot poisonous barbs. It is a most fearsome creature.
           </p>
         </div>
 
@@ -94,7 +92,7 @@ const History = () => {
           <p className="answer">
             Like other large, dangerous creatures, the manticore could be killed
             with spears and arrows if they could be caught. They were very fast
-            and often hid away in burrows under the ground.{" "}
+            and often hid away in burrows under the ground.
           </p>
         </div>
 
@@ -103,7 +101,7 @@ const History = () => {
           <p className="answer">
             Although a manticore does not have many weaknesses, it has an
             aversion to elephants in fact, elephants are the one creature that
-            manticores will avoid.{" "}
+            manticores will avoid.
           </p>
         </div>
 
@@ -111,7 +109,7 @@ const History = () => {
           <p className="question">What is the myth of the manticore?</p>
           <p className="answer">
             The manticore does not have one particular myth about it but is
-            mentioned in Persian, Greek and medieval literature and bestiaries.{" "}
+            mentioned in Persian, Greek and medieval literature and bestiaries.
           </p>
         </div>
 
@@ -119,10 +117,12 @@ const History = () => {
           <p className="question">Are manticores venomous?</p>
           <p className="answer">
             Manticores have a scorpion-like tail, which they are able to shoot
-            poisonous darts from.{" "}
+            poisonous darts from.
           </p>
         </div>
       </section>
+
+      
     </div>
   );
 };
