@@ -1,3 +1,6 @@
+body {
+    height: 100vh;
+}
 .clouds{
     position: absolute;
     top: 35%;
@@ -18,33 +21,7 @@
     animation: animate 16s linear infinite;
 }
 
-.cloud2 {
-    position: absolute;
-    bottom: 0;
-    max-width: 100%;    
-    animation: animate 16s linear infinite;
-}
 
-.cloud3 {
-    position: absolute;
-    bottom: 0;
-    max-width: 100%;    
-    animation: animate 16s linear infinite;
-}
-
-.cloud4 {
-    position: absolute;
-    bottom: 0;
-    max-width: 100%;    
-    animation: animate 16s linear infinite;
-}
-
-.cloud5 {
-    position: absolute;
-    bottom: 0;
-    max-width: 100%;    
-    animation: animate  16s linear infinite;
-}
 
 @keyframes animate {
     0%
