@@ -148,18 +148,20 @@ p {
     margin-top: 800px;
     width: 100%;    
     background-image: linear-gradient(to bottom , #FAEFDE, #E8C998);
-    padding: 40px;  
+    padding: 40px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 
 }
-.readmorebtn{  
+.readmorebtn{     
     font-family: "Inter" sans-serif;     
     border: none;
-    color: white;    
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    color: white;   
+    text-decoration: none;    
     font-size: 24px; 
     color: #998665;
+
 }
 
 .readmorebtn:hover{
