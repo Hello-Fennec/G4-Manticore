@@ -4,7 +4,7 @@ import { useState } from "react";
 import "./History.css";
 
 function History() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   return (
     <div id="History">
       <div className="header">
