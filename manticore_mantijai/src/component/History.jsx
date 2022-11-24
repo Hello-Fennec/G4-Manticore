@@ -2,6 +2,8 @@ import React from "react";
 
 import "./History.css";
 
+import ReadMoreReadLess from "../ReadMoreReadLess";
+
 const History = () => {
   return (
     <div id="History">
@@ -10,15 +12,12 @@ const History = () => {
       </div>
 
       <section className="top-pic">
-        <img src="../img/pic01.png" class="pic01" />
-        <div className="below-pic01">
-          <h3 id="M-below-pic01">Manticore</h3>
-          <p id="B-below-pic01">British Library (Public Domain)</p>
-        </div>
+        <img src="../img/pic01.png" class="pic01" />          
       </section>
+      
 
-      <section className="top-topic">
-        <div className="top-topic01">
+      <section class="top-topic">
+        <div class="top-topic01">
           <p>
             The manticore, derived from the Early Middle Persian merthykhuwar or
             martiora, meaning "man-eater" (also known as a mantichora or a
@@ -28,7 +27,7 @@ const History = () => {
           </p>
         </div>
 
-        <div className="top-topic02">
+        <div class="top-topic02">
           <p>
             The manticore is one of the most bizarre and ferocious creatures
             depicted throughout classical and medieval bestiaries. Its roots can
@@ -64,7 +63,6 @@ const History = () => {
 
         <div className="box-whatManti">
           <p className="whatManti-text">
-            {" "}
             A manticore is a mythological creature that was said to be
             unconquerable. The mighty beast is best known for its strange but
             magnificent features. It is often said that the beast had the head

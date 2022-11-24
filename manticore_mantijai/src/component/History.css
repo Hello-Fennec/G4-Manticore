@@ -35,7 +35,7 @@ p {
 }
 
 .top-pic {
-    margin-top: 100px;
+    margin-top: 100px;    
 }
 
 .pic01 {
@@ -46,17 +46,11 @@ p {
     float: left;
 }
 
-.below-pic01 {
-    font-family: ABeeZee;
-    color: rgba(149, 128, 128, 1);
-    
-}
-
 
 
 .top-topic {
     box-sizing: border-box;
-    justify-content: space-between;
+    justify-content: space-between;   
 }
 
 .top-topic01 {
@@ -68,7 +62,7 @@ p {
     margin-top: 30px;
     margin-right: 200px;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 20px;   
 }
 
 .top-topic02 {
@@ -85,7 +79,7 @@ p {
 
 .origin {
     width: 1154px;
-    margin-top: 630px;
+    margin-top: 750px;
     margin-left: 160px;
 }
 
@@ -101,7 +95,7 @@ p {
 .whatManti {
     width: 1154px;
     margin-left: 160px;
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: left;
 }
 
@@ -127,7 +121,7 @@ p {
 .QA {
     width: 1154px;
     margin-left: 160px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .QA-head {

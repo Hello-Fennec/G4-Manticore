@@ -20,7 +20,7 @@ body {
     position: relative;
     bottom: 0;
     max-width: 100%;    
-    animation: animate 16s linear infinite;
+    animation: animate 8s linear infinite;
 }
 
 
