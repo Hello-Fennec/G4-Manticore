@@ -6,15 +6,13 @@ import Appear from './component/Appearance';
 import History from './component/History';
 
 function App() {
+  
   return (
     <div className="App">      
-      <div>
-          <Nav />
-          <Home />         
-          <Appear />
-          <History />
-      </div>
-
+        <Nav />
+        <Home />
+        <Appear />
+        <History />
     </div>
   );
 }
