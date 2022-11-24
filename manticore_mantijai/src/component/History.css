@@ -108,11 +108,11 @@ p {
     justify-content: space-between;
     background-image: linear-gradient(rgba(245, 229, 172, 1), rgba(184, 210, 201, 1));
     padding: 50px;
-    border-radius: 30px;
+    border-radius: 30px;    
 }
 
 .whatManti-text {
-    margin-top: 50px;
+    padding-top: 0px;
     margin-right: 100px;
     color: black;
     
@@ -122,7 +122,7 @@ p {
     width: 1154px;
     margin-left: 160px;
     margin-top: 200px;
-    margin-bottom: -600px;
+    margin-bottom: -600px;    
 }
 
 .QA-head {
@@ -135,6 +135,7 @@ p {
     margin-bottom: 0px;
     font-size: 25px;
     text-align: left;
+    
 }
 
 .answer {
@@ -146,22 +147,25 @@ p {
 
 #ReadMoreBox {    
     margin-top: 800px;
-    width: 100%;    
+    width: 100%;  
     background-image: linear-gradient(to bottom , #FAEFDE, #E8C998);
-    padding: 40px;  
-
+    padding: 40px; 
+    display: flex;     
+    justify-content: center;
+   
+    
 }
-.readmorebtn{  
+.readmorebtn{       
     font-family: "Inter" sans-serif;     
     border: none;
-    color: white;    
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    color: white;   
+    text-decoration: none;    
     font-size: 24px; 
-    color: #998665;
+    color: #998665;     
+
 }
 
 .readmorebtn:hover{
    color: #EC3C3C;
 }
+
