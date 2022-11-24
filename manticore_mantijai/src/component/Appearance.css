@@ -1,0 +1,19 @@
+body {
+    max-height: 200vh;
+}
+
+.AppearImage {
+    padding-top: 100px;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#appear2 {
+    text-shadow: 1px #000000;
+}
+
+.AppearTopic {
+    padding-top: 1000px;
+}
+

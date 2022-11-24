@@ -14,13 +14,11 @@ function Home() {
             </div>
 
             <img className="w-1/4  mt-56 float-right mr-56" src="../img/home.png" alt="homepicture" />
-
-
-
-            <div className="clouds">
-                <img src="../img/cloud1.png" className="cloud1" />                
-            </div>
             
+            <div className="clouds">
+                <img src="../img/cloud1.png" className="cloud1" />
+            </div>
+
         </div>
 
 

@@ -1,6 +1,7 @@
 body {
-    height: 100vh;
+    max-height: 100vh;
 }
+
 .clouds{
     position: absolute;
     top: 35%;
@@ -11,11 +12,12 @@ body {
 }
 
 .clouds img {
+    margin-top: 100px;
     height: 60%;
 }
 
 .cloud1 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     max-width: 100%;    
     animation: animate 16s linear infinite;
