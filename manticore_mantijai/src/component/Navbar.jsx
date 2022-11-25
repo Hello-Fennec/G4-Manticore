@@ -9,7 +9,7 @@ const { Link } = Anchor;
 const Nav = () => {
     return (
 
-        <nav className="shadow-md w-full fixed top-0 left-0 bg-gradient-to-r from-yellow-600 to-lime-700">
+        <nav className="shadow-md w-full fixed top-0 left-0 bg-gradient-to-r from-yellow-600 to-lime-700 z-10">
             <div className="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="#" className="flex items-center">                    
                     <span className="font-semibold whitespace-nowrap dark:text-white text-center text-white font-itim" id="logo">MANTICORE <br /> Mantijai</span>

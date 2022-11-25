@@ -15,7 +15,7 @@ function Appear() {
 
             
             <div className="AppearImage">
-                <img src="../img/Appearance.png" />
+                <img src="../img/appearance.png" />
             </div>
             
             

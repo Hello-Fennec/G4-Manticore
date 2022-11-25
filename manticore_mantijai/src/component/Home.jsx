@@ -6,7 +6,7 @@ import "./Home.css";
 function Home() {
     return (
         <div>
-            <JackInTheBox>
+            <JackInTheBox className="-z-10">
                 <div id="boxhome">
                     <img id="homeimage" src="../img/Home_Manticore.png" />
                 </div>
