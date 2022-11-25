@@ -5,7 +5,7 @@ import "./Home.css";
 function Home() {
     return (
         <div>
-            <div>
+            <div id="boxhome">
                 <img id="homeimage"src="../img/Home_Manticore.png"/>
             </div>            
             <div className="clouds">

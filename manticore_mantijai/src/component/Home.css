@@ -1,20 +1,13 @@
-#homeimage{
-    margin-top: ;
+#boxhome{
+     margin-top: 6.25rem;
+}
+
+
+#homeimage{    
     width: 80%;
     height: auto;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .clouds{
     position: absolute;
