@@ -9,6 +9,7 @@ import Menu from "./component/Menu";
 import Quiz from "./component/Quiz";
 import Score from "./component/Score";
 import About from './component/About';
+import { Bounce } from "react-awesome-reveal";
 
 
 {/* Context API (ให้บริการเกี่ยวกับข้อมูลสถานะของตัว Application )*/ }
@@ -24,7 +25,7 @@ function App() {
 
 
   return (
-    <div className="App">      
+    <div className="App">
       <Nav />
       <Home />
       <Appear />
@@ -34,11 +35,13 @@ function App() {
 
       <DataContext.Provider value={{ appState, setAppState, score, setScore }}>
         <div id='QuizComponent'>
-        <h1 className="Head"> LET'S DO SOME QUIZ! </h1>
-        {/* เงื่อนไขในการแสดงค่า Components */}
-        {appState === "menu" && <Menu />}
-        {appState === "quiz" && <Quiz />}
-        {appState === "score" && <Score />}
+          <Bounce>
+            <h1 className="Head"> LET'S DO SOME QUIZ! </h1>
+            {/* เงื่อนไขในการแสดงค่า Components */}
+            {appState === "menu" && <Menu />}
+            {appState === "quiz" && <Quiz />}
+            {appState === "score" && <Score />}
+          </Bounce>
         </div>
 
       </DataContext.Provider>
