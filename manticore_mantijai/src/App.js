@@ -8,6 +8,7 @@ import { createContext, useState } from "react";
 import Menu from "./component/Menu";
 import Quiz from "./component/Quiz";
 import Score from "./component/Score";
+import About from './component/About';
 
 
 {/* Context API (ให้บริการเกี่ยวกับข้อมูลสถานะของตัว Application )*/ }
@@ -41,6 +42,8 @@ function App() {
         </div>
 
       </DataContext.Provider>
+
+      <About />
     </div>
   );
 }

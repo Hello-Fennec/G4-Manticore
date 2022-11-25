@@ -1,0 +1,43 @@
+#AboutUs {
+    margin-top: 300px;
+}
+
+#AbouUsTopic {
+    max-width: 100%;
+    height: auto;
+}
+
+#FrontEnd {
+    max-width: 80%;
+    height: auto;
+    padding-top: 12.5rem;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+#FrontEnd:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#DesignInfra {
+    max-width: 80%;
+    height: auto;
+    padding-top: 6.25rem;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+#DesignInfra:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+
+
+#Footer{
+    max-width: 100%;
+    height: auto;
+    padding-top: 18.75rem;
+    margin: 0 auto;
+}
