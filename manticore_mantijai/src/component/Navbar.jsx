@@ -1,23 +1,40 @@
 import React from "react";
+import { Anchor } from 'antd';
 
-const Nav = () => {   
+const { Link } = Anchor;
+
+
+const Nav = () => {
     return (
-        <div className="shadow-md w-full fixed top-0 left-0 bg-gradient-to-r from-yellow-600 to-lime-700">
-            <div className="md:flex items-center justify-between py-4 md:px-10">
-                <div className=" ml-8 font-bold text-2xl cursor-pointer flex items-center text-white font-itim">
-                    MANTICORE <br/> Mantijai                   
+
+        <nav class="shadow-md w-full fixed top-0 left-0 bg-gradient-to-r from-yellow-600 to-lime-700">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+                <a href="#" class="flex items-center">                    
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-center text-white font-itim">MANTICORE <br /> Mantijai</span>
+                </a>                
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="flex flex-col p-10 mt-10  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 text-xl font-inter text-white">
+                        <li>
+                            <Link href="#boxhome" title="HOME" />
+                        </li>
+                        <li>
+                            <Link href="#Appear" title="APPEARANCE" />
+                        </li>
+                        <li>
+                            <Link href="#History" title="HISTORY" />
+                        </li>
+                        <li>
+                            <Link href="#QuizComponent" title="QUIZ" />
+                        </li>
+                        <li>
+                            <Link href="#AboutUs" title="ABOUT" />
+                        </li>
+                    </ul>
                 </div>
-              <ul className="md:flex md:items-center md:max-xl mr-20">
-                <li className="md:max-xl space-x-20  text-xl text-white font-inter">
-                <a href="#">HOME</a>
-                <a href="#">APPEARANCE</a> 
-                <a href="#">HISTORY</a>               
-                <a href="#">QUIZ</a>
-                <a href="#">ABOUT</a>
-                </li>                
-              </ul>
             </div>
-        </div>
+        </nav>
+
+
 
 
 
