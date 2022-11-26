@@ -18,7 +18,7 @@ function About() {
                 <h2 id="FrontEndTopic">FRONT-END</h2>
                 <div id="FrontEnd">
                     <div id="Picture">
-                    <a href="https://www.instagram.com/wariswasy/" target={"_blank"}><img src="../img/Waris.png"  /></a>
+                    <a href="https://www.instagram.com/wariswasy/" target={"_blank"}><img src="../img/waris.png"  /></a>
                     </div>
 
                     <div id="Picture">
