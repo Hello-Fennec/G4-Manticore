@@ -18,7 +18,7 @@ function About() {
                 <h2 id="FrontEndTopic">FRONT-END</h2>
                 <div id="FrontEnd">
                     <div id="Picture">
-                    <a href="https://www.instagram.com/wariswasy/" target={"_blank"}><img src="../img/waris.png"  /></a>
+                        <a href="https://www.instagram.com/wariswasy/" target={"_blank"}><img src="../img/waris.png" /></a>
                     </div>
 
                     <div id="Picture">
@@ -61,11 +61,11 @@ function About() {
                     <div id="Picture-Design"><a href="https://www.instagram.com/_tongpc/" target={"_blank"}><img src="../img/Tong.png" /></a></div>
                     <div id="Text-Design-Topic">
                         <div id="Text-Design">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ben (DSI) <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ben (DSI) <br />
                             Benjawan Thanaponphotha
                         </div>
                         <div id="Text-Design">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tong (IT) <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tong (IT) <br />
                             Pongsapat Charoencharuskul
                         </div>
                     </div>
@@ -82,9 +82,6 @@ function About() {
                             Paepilai Chaimongkolngam
                         </div>
                     </div>
-
-
-
                 </div>
 
             </div>
@@ -95,9 +92,8 @@ function About() {
 
 
 
-
             <div id="Footer">
-
+                <img src="../img/Footer.png"  />
             </div>
 
         </div>

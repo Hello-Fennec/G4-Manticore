@@ -5,6 +5,7 @@
 
 #logo {
     font-size: 2.25rem;
+    filter: drop-shadow(0 0 4px #2E2E2E);    
 }
 
 li:hover {
