@@ -75,7 +75,7 @@ function About() {
 
 
                 <div id="Infra">
-                    <div id="Picture-Infra"><a href="https://www.instagram.com/ioonixc/"><img src="../img/Ioon.png" /></a></div>
+                    <div id="Picture-Infra"><a href="https://www.instagram.com/ioonixc/" target={"_blank"}><img src="../img/Ioon.png" /></a></div>
                     <div id="Text-Infra-Topic">
                         <div id="Text-Infra">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ioon (IT) <br />
